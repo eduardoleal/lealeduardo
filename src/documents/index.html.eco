@@ -1,0 +1,117 @@
+---
+layout: default
+---
+
+<header class="header">
+	<div class="row">
+		<div class="span8">
+			<div class="profile clearfix">
+				<img src="<%= @getGravatarUrl() %>" alt="" class="profile-pic">
+				<div class="profile-text">
+					<h1 class="profile-title">
+						<%= @site.title %>
+					</h1>
+					<h2 class="profile-description">
+						<%= @site.description %>
+						<br>
+						<a href="mailto:<%= @site.mail %>"><%= @site.mail %></a>
+					</h2>
+					
+				</div>
+			</div>
+		</div>
+		<div class="span4">
+			<ul class="social-icons-list clearfix">
+				<li class="social-icons-item">
+					<a href="<%= @links.linkedIn %>" target="_blank" class="social-linkedin">
+						Linked In
+					</a>
+				</li>
+				<li class="social-icons-item">
+					<a href="<%= @links.github %>" target="_blank" class="social-github">
+						Github
+					</a>
+				</li>				
+				<li class="social-icons-item">
+					<a href="<%= @links.googlePlus %>?rel=author" target="_blank" class="social-google-plus">
+						Google Plus	
+					</a>
+				</li>
+				<li class="social-icons-item">
+					<a href="<%= @links.twitter %>" target="_blank" class="social-twitter">
+						Twitter
+					</a>
+				</li>
+			</ul>
+		</div>	
+	</div>	
+</header>
+
+<div class="divider"></div>
+
+<section class="row jobs">
+	<article class="span4 jobs-item">
+		<img src="assets/image/jobs/sempretops.jpg" alt="Sempre Tops" class="job-thumb">
+		<h1 class="job-title">Sempre Tops</h1>
+		<time class="job-date" title="Desenvolvido em 2013">2013</time>
+		<h2 class="job-description">Portal de entretenimento e informações desenvolvido com <strong>WordPress</strong>.</h2>
+		<a href="http://www.sempretops.com/" target="_blank" class="job-link">www.sempretops.com</a>
+	</article>
+	<article class="span4 jobs-item">
+		<img src="assets/image/jobs/mulherbeleza.jpg" alt="Mulher Beleza" class="job-thumb">
+		<h1 class="job-title">Mulher Beleza</h1>
+		<time class="job-date" title="Desenvolvido em 2013">2013</time>
+		<h2 class="job-description">Portal de beleza. Desenvolvido com <strong>WordPress</strong>.</h2>
+		<a href="http://www.mulherbeleza.com.br/" target="_blank" class="job-link">www.mulherbeleza.com.br</a>
+	</article>
+	<article class="span4 jobs-item">
+		<img src="assets/image/jobs/manuttech.jpg" alt="Manuttech" class="job-thumb">
+		<h1 class="job-title">Manuttech</h1>
+		<time class="job-date" title="Desenvolvido em 2013">2013</time>
+		<h2 class="job-description">Site instituciobal. Desenvolvido com <strong>Docpad</strong>.</h2>
+		<a href="http://manuttech.com.br/" target="_blank" class="job-link">www.manuttech.com.br</a>
+	</article>
+	<div class="clearfix"></div>
+	<article class="span4 jobs-item">
+		<img src="assets/image/jobs/loja-mulherbeleza.jpg" alt="Loja Mulher Beleza" class="job-thumb">
+		<h1 class="job-title">Loja Mulher Beleza</h1>
+		<time class="job-date" title="Desenvolvido em 2013">2013</time>
+		<h2 class="job-description">Loja virtual feminina. Desenvolvido com <strong>iluria</strong>.</h2>
+		<a href="http://www.lojamulherbeleza.com.br/" target="_blank" class="job-link">www.lojamulherbeleza.com.br</a>
+	</article>
+	<article class="span4 jobs-item">
+		<img src="assets/image/jobs/aovivo.jpg" alt="Ao Vivo Sempre Tops" class="job-thumb">
+		<h1 class="job-title">Ao Vivo Sempre Tops</h1>
+		<time class="job-date" title="Desenvolvido em 2013">2013</time>
+		<h2 class="job-description">Sistema de transmissão de jogos do Campeonato Brasileiro 2012 (Minuto-a-Minuto). Desenvolvido com <strong>Ruby On Rails e MongoDB</strong>.</h2>
+		<a href="http://aovivo.sempretops.com/" target="_blank" class="job-link">aovivo.sempretops.com</a>
+	</article>
+	<article class="span4 jobs-item">
+		<img src="assets/image/jobs/modasetendencias.jpg" alt="Modas e Tendências" class="job-thumb">
+		<h1 class="job-title">Modas e Tendências</h1>
+		<time class="job-date" title="Desenvolvido em 2012">2012</time>
+		<h2 class="job-description">Site instituciobal. Desenvolvido com <strong>WordPress</strong>.</h2>
+		<a href="http://www.modasetendencias.com/" target="_blank" class="job-link">www.modasetendencias.com</a>
+	</article>
+	<div class="clearfix"></div>
+	<article class="span4 jobs-item">
+		<img src="assets/image/jobs/joeldasso.jpg" alt="Joel Dasso" class="job-thumb">
+		<h1 class="job-title">Joel Dasso</h1>
+		<time class="job-date" title="Desenvolvido em 2011">2011</time>
+		<h2 class="job-description">Portfólio de fotografias. Desenvolvido com <strong>WordPress</strong>.</h2>
+		<a href="http://joeldasso.com.br/" target="_blank" class="job-link">www.joeldasso.com.br</a>
+	</article>
+	<article class="span4 jobs-item">
+		<img src="assets/image/jobs/presenteparamulheres.jpg" alt="Presente para Mulheres" class="job-thumb">
+		<h1 class="job-title">Presente para Mulheres</h1>
+		<time class="job-date" title="Desenvolvido em 2012">2012</time>
+		<h2 class="job-description">Blog sobre presentes femininos. Desenvolvido com <strong>WordPress</strong>.</h2>
+		<a href="http://www.presentesparamulheres.com.br/" target="_blank" class="job-link">www.presentesparamulheres.com.br</a>
+	</article>
+</section>
+<div class="divider"></div>
+<footer>
+	<small>
+		Desenvolvido com <a href="http://docpad.org/" target="_blank">Docpad</a>.
+	</small>
+</footer>
